@@ -7,3 +7,8 @@
 .meal img {
     width: 200px;
 }
+
+a {
+    margin-right: 30px;
+    text-decoration: none;
+}

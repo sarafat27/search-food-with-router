@@ -3,6 +3,7 @@ import './App.css';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Header from './Components/Header/Header';
+import MealDetail from './Components/MealDetail/MealDetail';
 import NotFound from './Components/NotFound/NotFound';
 import Profile from './Components/Profile/Profile';
 import Restaurant from './Components/Restaurant/Restaurant';
@@ -16,6 +17,7 @@ function App() {
         <Route path="/profile" element={<Profile></Profile>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route path="/meal/:mealId" element={<MealDetail></MealDetail>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
 
